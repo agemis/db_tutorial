@@ -12,12 +12,15 @@ title: How Does a Database Work?
 
 In short, how does a database **work**?
 
-I'm building a clone of [sqlite](https://www.sqlite.org/arch.html) from scratch in C in order to understand, and I'm going to document my process as I go.
+I'm building a clone of [sqlite](https://www.sqlite.org/arch.html) from scratch in C and Golang in order to understand, and I'm going to document my process as I go.
 
-# Table of Contents
+Credits for C version: [cstack](https://github.com/cstack/db_tutorial)
+
+# Table of Contents - C version
 {% for part in site.parts %}- [{{part.title}}]({{site.baseurl}}{{part.url}})
 {% endfor %}
 
+# Table of Contents - Golang version
 {% for part in site.goparts %}- [{{part.title}}]({{site.baseurl}}{{part.url}})
 {% endfor %}
 
