@@ -1,3 +1,10 @@
+# Compiled source #
+###################
+*.exe
+*.o
+*.so
+# Specific
+###################
 db
 *.db
 _site/
