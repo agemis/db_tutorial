@@ -16,12 +16,8 @@ I'm building a clone of [sqlite](https://www.sqlite.org/arch.html) from scratch 
 
 Credits for C version: [cstack](https://github.com/cstack/db_tutorial)
 
-# Table of Contents - C version
+# Table of Contents
 {% for part in site.parts %}- [{{part.title}}]({{site.baseurl}}{{part.url}})
-{% endfor %}
-
-# Table of Contents - Golang version
-{% for part in site.goparts %}- [{{part.title}}]({{site.baseurl}}{{part.url}})
 {% endfor %}
 
 > "What I cannot create, I do not understand." -- [Richard Feynman](https://en.m.wikiquote.org/wiki/Richard_Feynman)
